@@ -1,6 +1,8 @@
 module.exports = {
     entry: {
-        index: './compants/index.jsx'
+        dropDown:['./compants/dropDown.jsx'],
+        navTab:['./compants/navTab.jsx'],
+        allCompants:['./compants/allCompants.jsx']
     },
     output: {
         path: './dist/',
